@@ -1,0 +1,14 @@
+** START ** ** **
+abc MACRO &a &b &c
+** L 1 &a **
+** A 1 &b **
+** S 1 &c **
+** MEND ** ** **
+** ST 1 a **
+def MACRO &d &e **
+** L 1 &d **
+** A 1 &e **
+** MEND ** ** **
+** abc a b c
+** def n m **
+** END ** ** **
